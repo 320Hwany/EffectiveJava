@@ -52,6 +52,19 @@ public enum Member3 {
 }
 ```
 
+```
+public enum Member4 {
+
+    INSTANCE;
+
+    public static final String name = "이름";
+
+    public static final int age = 20;
+}
+```
+
+
+
 public 필드 방식과 비슷하지만 더 간결하고 추가 노력 없이 직렬화할 수 있고 아주 복잡한 직렬화 상황이나    
 리플렉션 공격에서도 제2의 인스턴스가 생기는 일을 완벽히 막아줍니다.    
 
