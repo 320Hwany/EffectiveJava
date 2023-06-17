@@ -44,4 +44,20 @@ public class MemberTest {
         assertThat(name).isEqualTo("이름");
         assertThat(age).isEqualTo(20);
     }
+
+    @Test
+    @DisplayName("싱글톤 - 원소가 하나뿐인 열거 타입 사용")
+    void test4() {
+        // given
+        Member4 member1 = Member4.INSTANCE;
+        Member4 member2 = Member4.INSTANCE;
+
+        String name = Member4.name;
+        int age = Member4.age;
+
+        // expected
+        assertThat(member1).isEqualTo(member2);
+        assertThat(name).isEqualTo("이름");
+        assertThat(age).isEqualTo(20);
+    }
 }
