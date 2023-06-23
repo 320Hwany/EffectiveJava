@@ -16,10 +16,10 @@ public class Member {
 
     @Override
     public String toString() {
-        return "Member{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", height=" + height +
+        return "MemberCloneable{" +
+                "이름 = '" + name + '\'' +
+                ", 나이 = " + age + "세" +
+                ", 키 = " + height + "cm" +
                 '}';
     }
 }
