@@ -72,5 +72,5 @@ public 필드 방식과 비슷하지만 더 간결하고 추가 노력 없이 �
 
 대부분 상황에서는 원소가 하나뿐인 열거 타입 (3번 방식)이 싱글톤을 만드는 가장 좋은 방법입니다.   
 
-[아이템 3 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/item3)   
-[아이템 3 테스트 코드](https://github.com/320Hwany/EffectiveJava/blob/main/src/test/java/effective/item3/MemberTest.java)   
+[아이템 3 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter2/item3)                  
+[아이템 3 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter2/item3)    

@@ -28,5 +28,5 @@ Object의 equals 메소드는 그냥 두면 그 클래스의 인스턴스는 오
 재정의해야 할 때는 그 클래스의 핵심 필드 모두를 빠짐없이, 다섯 가지 규약을 확실히 지켜가며 비교해야합니다.            
 재정의는 직접 작성하는 것보다 IDE에게 맡기는 것이 더 좋은 방법입니다.        
 
-[아이템 10 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/item10)        
-[아이템 10 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/blob/main/src/test/java/effective/item10/EqualsTest.java)       
+[아이템 10 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter3/item10)                
+[아이템 10 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter3/item10)       

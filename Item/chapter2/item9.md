@@ -78,4 +78,4 @@ static String firstLineOfFile(String path) throws IOException {
 꼭 회수해야 하는 자원을 다룰 때는 try-finally 말고 try-with-resources를 사용하자.    
 코드의 가독성은 더 좋아지고 만들어지는 예외 정보도 훨씬 유용하다.   
 
-[아이템 9 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/item9)       
+[아이템 9 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter2/item9)          

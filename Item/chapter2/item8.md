@@ -48,4 +48,4 @@ finalizer가 가비지 컬렉터의 효율을 떨어뜨립니다. cleaner도 클
 cleaner는 안정망 역할이나 중요하지 않은 네이티브 자원 회수용으로만 사용해야 합니다.      
 물론 이런 경우라도 불확실성과 성능 저하에 주의해야 합니다.    
 
-[아이템 8 - 예제 코드](https://github.com/320Hwany/EffectiveJava/blob/main/src/main/java/effective/item8/Room.java)   
+[아이템 8 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter2/item8)                

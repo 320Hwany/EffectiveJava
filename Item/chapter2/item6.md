@@ -83,6 +83,6 @@ public class AutoBoxing {
 프로그램의 명확성, 간결성, 기능을 위해서 객체를 추가로 생성하는 일은 일반적으로 좋은 일입니다.     
 객체를 재사용하다가 발생하다는 프로그램의 오류는 단순히 불필요한 객체 생성으로 인해 발생하는 성능의 영향보다 훨씬 큽니다.     
 
-[아이템 6 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/item6)   
-[아이템 6 테스트 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/item6)   
+[아이템 6 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter2/item6)              
+[아이템 6 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter2/item6)
 

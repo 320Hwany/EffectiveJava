@@ -24,5 +24,6 @@ public class Member {
 모든 생성자는 명시적이든 묵시적이든 상위 클래스의 생성자를 호출하게 되는데 이를 private으로       
 선언했으니 하위 클래스가 상위 클래스의 생성자에 접근할 길이 막혀버립니다.           
 
-[아이템 4 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/item4)    
+[아이템 4 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter2/item4)          
+[아이템 4 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter2/item4)      
 

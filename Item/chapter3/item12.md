@@ -24,6 +24,6 @@ Before
 After         
 <img width="500" alt="image" src="https://github.com/320Hwany/EffectiveJava/assets/84896838/152dcce1-9509-444e-8575-e2a52d14dd37">      
 
-[아이템 12 - 예제 코드](https://github.com/320Hwany/EffectiveJava/blob/main/src/main/java/effective/item12/Member.java)      
-[아이템 12 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/blob/main/src/test/java/effective/item12/MemberTest.java)     
+[아이템 12 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter3/item12)          
+[아이템 12 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter3/item12)           
 

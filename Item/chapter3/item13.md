@@ -49,8 +49,8 @@ clone을 재귀적으로 호출하는 방법 이외에도 깊은 복사를 하�
 복제를 할 때의 기본 원칙은 생성자와 팩토리를 사용하는 것이 훨씬 더 좋은 방법입니다.    
 단, 배열만은 clone 메소드 방식이 가장 깔끔한 방식입니다.    
 
-[아이템 13 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/item13)   
-[아이템 13 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/blob/main/src/test/java/effective/item13/CloneableTest.java)    
+[아이템 13 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter3/item13)           
+[아이템 13 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter3/item13)
 
 
 

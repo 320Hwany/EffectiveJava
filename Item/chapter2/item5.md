@@ -37,7 +37,7 @@ public class HamburgerSet {
 필요한 자원을 생성자(혹은 정적 팩토리나 빌더)에 넘겨주는 의존 객체 주입 방식을 사용하는 것이 좋습니다.    
 이 방식은 클래스의 유연성, 재사용성, 테스트 용이성이라는 이점을 가져다 줍니다.    
 
-[아이템 5 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/item5)   
-[아이템 5 테스트 코드](https://github.com/320Hwany/EffectiveJava/blob/main/src/test/java/effective/item5/HamburgerSetTest.java)   
+[아이템 5 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter2/item5)            
+[아이템 5 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter2/item5)      
 
 

@@ -58,5 +58,5 @@ public Object pop() {
 다 쓴 참조를 해제하는 가장 좋은 방법은 그 참조를 담은 변수를 유효 범위 밖으로 밀어내는 것입니다.    
 
         
-[아이템 7 - 예제 코드](https://github.com/320Hwany/EffectiveJava/blob/main/src/main/java/effective/item7/Stack.java)   
+[아이템 7 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter2/item7)                
 

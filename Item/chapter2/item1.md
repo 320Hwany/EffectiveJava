@@ -24,6 +24,6 @@
 정적 팩토리 메소드와 public 생성자는 각자의 쓰임새가 있으니 상대적인 장단점을 이해하고 사용해야 합니다.    
 정적 팩토리를 사용하는 것이 유리한 경우가 더 많으므로 생성자 대신 정적 팩토리 메소드 사용을 고려해야 합니다.    
 
-[아이템 1 예제코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/item1)   
-[아이템 1 테스트 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/item1)  
+[아이템 1 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter2/item1)              
+[아이템 1 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter2/item1)      
 

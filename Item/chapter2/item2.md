@@ -24,6 +24,6 @@
 생성자나 정적 팩토리가 처리해야 할 매개변수가 많다면 빌더 패턴을 선택하자.   
 빌더는 점층적 생성자보다 클라이언트 코드를 읽고 쓰기 훨씬 간결하며 자바빈즈보다 훨씬 안전하다.    
 
-[아이템 2 예제코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/item2)   
-[아이템 2 테스트 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/item2)  
+[아이템 2 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter2/item2)                
+[아이템 2 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter2/item2)      
 

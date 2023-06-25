@@ -95,5 +95,5 @@ Collections.sort(members, Comparator.comparingInt(Member::getAge)
 compareTo 메소드에서 필드의 값을 비교할 때 <와 > 연산자는 쓰지 말아야한다.    
 그 대신 박싱된 기본 타입 클래스가 제공하는 정적 compare 메소드나 Comparator 인터페이스가 제공하는 비교 생성자 메소드를 사용하자.    
 
-[아이템 14 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/item14)      
-[아이템 14 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/item14)     
+[아이템 14 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter3/item14)              
+[아이템 14 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter3/item14)       

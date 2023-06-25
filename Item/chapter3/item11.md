@@ -32,8 +32,8 @@ equals를 재정의할 때는 hashCode도 반드시 재정의해야 합니다. �
 서로 다르게 구현해야 합니다. equals와 마찬가지로 IDE에서 hashCode의 구현도 도와주기 때문에 적극적으로 사용하는 것이    
 좋은 방법입니다.     
 
-[아이템 11 - 예제 코드](https://github.com/320Hwany/EffectiveJava/blob/main/src/main/java/effective/item11/Member.java)        
-[아이템 11 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/item11)        
+[아이템 11 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter3/item11)             
+[아이템 11 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter3/item11)    
 
 
 
