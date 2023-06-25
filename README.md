@@ -9,15 +9,15 @@
 관리하는 방법에 대해 정리해보았습니다.   
 
 
-[아이템 1](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item1.md)     
-[아이템 2](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item2.md)   
-[아이템 3](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item3.md)    
-[아이템 4](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item4.md)   
-[아이템 5](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item5.md)   
-[아이템 6](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item6.md)   
-[아이템 7](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item7.md)     
-[아이템 8](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item8.md)    
-[아이템 9](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item9.md)        
+[아이템 1](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter2/item1.md)       
+[아이템 2](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter2/item2.md)          
+[아이템 3](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter2/item3.md)              
+[아이템 4](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter2/item4.md)        
+[아이템 5](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter2/item5.md)        
+[아이템 6](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter2/item6.md)         
+[아이템 7](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter2/item7.md)         
+[아이템 8](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter2/item8.md)              
+[아이템 9](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter2/item9.md)           
 
 ## 모든 객체의 공통 메소드
 
@@ -27,9 +27,9 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 일반 규약을 지키지 않으면 HashMap, HashSet과 같은 클래스가 제대로 동작하지 않을 수 있습니다.     
 이번 챕터에서는 이러한 메소드들을 어떻게 재정의해야 하는 지에 대해 정리해보았습니다.      
 
-[아이템 10](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item10.md)        
-[아이템 11](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item11.md)    
-[아이템 12](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item12.md)   
-[아이템 13](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item13.md)    
-[아이템 14](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item14.md)     
+[아이템 10](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter3/item10.md)             
+[아이템 11](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter3/item11.md)         
+[아이템 12](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter3/item12.md)        
+[아이템 13](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter3/item13.md)         
+[아이템 14](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter3/item14.md)        
 
