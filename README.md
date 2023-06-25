@@ -1,6 +1,6 @@
 # 이펙티브 자바
 
-이펙티브 자바를 읽고 정리하며 예제 코드와 테스트 코드를 만들어보았습니다.   
+이펙티브 자바를 읽고 정리하며 예제 코드와 학습 테스트를 만들어보았습니다.   
 
 ## 객체 생성과 파괴
 
@@ -28,4 +28,8 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 이번 챕터에서는 이러한 메소드들을 어떻게 재정의해야 하는 지에 대해 정리해보았습니다.      
 
 [아이템 10](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item10.md)        
+[아이템 11](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item11.md)    
+[아이템 12](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item12.md)   
+[아이템 13](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item13.md)    
+[아이템 14](https://github.com/320Hwany/EffectiveJava/blob/main/Item/item14.md)     
 
