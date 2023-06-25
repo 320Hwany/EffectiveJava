@@ -11,7 +11,7 @@ class CloneableTest {
     @DisplayName("가변 상태를 참조하지 않는 클래스용 clone 메소드")
     void test1() {
         // given
-        Member member = new Member("이름", 20, 170);
+        Member member = new Member("이름",20, 170);
 
         // when
         Member clone = member.clone();
@@ -47,12 +47,14 @@ class CloneableTest {
         // when
         int[] clone = hello.clone();
 
+        // expected
+        assertThat(hello).isNotSameAs(clone);
         assertThat(hello).isEqualTo(clone);
 
+        // when
         clone[3] = 10;
 
         // then
-        assertThat(hello).isNotSameAs(clone);
         assertThat(hello).isNotEqualTo(clone);
         assertThat(hello[3]).isEqualTo(0);
         assertThat(clone[3]).isEqualTo(10);

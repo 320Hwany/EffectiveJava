@@ -6,9 +6,9 @@ public class Member implements Cloneable {
 
     private int age;
 
-    private float height;
+    private int height;
 
-    public Member(String name, int age, float height) {
+    public Member(String name, int age, int height) {
         this.name = name;
         this.age = age;
         this.height = height;
@@ -22,7 +22,7 @@ public class Member implements Cloneable {
         return age;
     }
 
-    public float getHeight() {
+    public int getHeight() {
         return height;
     }
 
