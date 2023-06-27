@@ -28,7 +28,7 @@ class MemberTest {
         // given
         MemberFinalField memberFinalField = new MemberFinalField("회원 이름", 20);
 
-        // 불변은 보장된다, 하지만 API를 공개한다
+        // 불변은 보장된다, 하지만 API를 공개한다.
         String name = memberFinalField.name;
         int age = memberFinalField.age;
 
