@@ -31,5 +31,14 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 [아이템 11](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter3/item11.md)         
 [아이템 12](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter3/item12.md)        
 [아이템 13](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter3/item13.md)         
-[아이템 14](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter3/item14.md)        
+[아이템 14](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter3/item14.md)     
+
+## 클래스와 인터페이스
+
+추상화의 기본 단위인 클래스와 인터페이스는 자바 언어의 핵심입니다. 그래서 자바 언어에는 클래스와 인터페이스 설계에   
+사용하는 강력한 요소가 많이 있습니다. 이번 챕터에서는 이런 요소들을 적절히 활용하여 클래스와 인터페이스를  
+쓰기 편하고, 견고하며, 유연하게 만드는 방법에 대해 정리해보았습니다.    
+
+[아아템 15](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item15.md)        
+[아아템 16](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item16.md)        
 
