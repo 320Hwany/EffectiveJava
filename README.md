@@ -39,6 +39,7 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 사용하는 강력한 요소가 많이 있습니다. 이번 챕터에서는 이런 요소들을 적절히 활용하여 클래스와 인터페이스를  
 쓰기 편하고, 견고하며, 유연하게 만드는 방법에 대해 정리해보았습니다.    
 
-[아아템 15](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item15.md)        
-[아아템 16](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item16.md)        
+[아이템 15](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item15.md)        
+[아이템 16](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item16.md)        
+[아이템 17](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item17.md)             
 

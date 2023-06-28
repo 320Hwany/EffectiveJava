@@ -14,17 +14,18 @@ class CalculatorTest {
     @DisplayName("불변 클래스에서 피연산자 자체는 변하지 않는 함수형 프로그래밍 방식")
     void test1() {
         // given
-        Calculator calculator = Calculator.valueOf(30, 10);
+        Calculator calculator1 = Calculator.valueOf(30, 10);
+        Calculator calculator2 = Calculator.valueOf(10, 10);
 
         // when
-        int plus = calculator.plus();
-        int minus = calculator.minus();
+        Calculator plus = calculator1.plus(calculator2);
+        Calculator minus = calculator1.minus(calculator2);
 
         // then
-        assertThat(plus).isEqualTo(40);
-        assertThat(minus).isEqualTo(20);
-        assertThat(calculator.getA()).isEqualTo(30);
-        assertThat(calculator.getB()).isEqualTo(10);
+        assertThat(plus.getA()).isEqualTo(40);
+        assertThat(plus.getB()).isEqualTo(20);
+        assertThat(minus.getA()).isEqualTo(20);
+        assertThat(minus.getB()).isEqualTo(0);
     }
 
     @Test

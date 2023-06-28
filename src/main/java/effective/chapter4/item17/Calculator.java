@@ -15,12 +15,12 @@ public class Calculator {
         return new Calculator(a, b);
     }
 
-    public int plus() {
-        return a + b;
+    public Calculator plus(Calculator c) {
+        return new Calculator(a + c.getA(), b + c.getB());
     }
 
-    public int minus() {
-        return a - b;
+    public Calculator minus(Calculator c) {
+        return new Calculator(a - c.getA(), b - c.getB());
     }
 
     public int getA() {
