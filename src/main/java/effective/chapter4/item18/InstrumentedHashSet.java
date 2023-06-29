@@ -1,7 +1,6 @@
 package effective.chapter4.item18;
 
 import java.util.Collection;
-import java.util.Collections;
 import java.util.HashSet;
 
 public class InstrumentedHashSet<E> extends HashSet<E> {
