@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.*;
 class MemberTest {
 
     @Test
-    @DisplayName("Comparable을 구현하여 Member 객체의 순서를 정렬할 수 있습니다")
+    @DisplayName("Comparable을 구현하여 Celebrity 객체의 순서를 정렬할 수 있습니다")
     void test1() {
         // given
         Member member1 = new Member("회원 1",21, 172, 60);
