@@ -168,5 +168,5 @@ void test5() {
 해당 타입으로 쓰기에 적합한 클래스나 인터페이스가 이미 있다면 익명 클래스로 만들 수 있습니다.   
 그렇지 않다면 지역 클래스를 고려해볼 수 있습니다.    
 
-[아이템 24 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter4/item24)               
-[아이템 24 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter4/item24) 
+[아이템 24 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter4/item24)                
+[아이템 24 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter4/item24)    

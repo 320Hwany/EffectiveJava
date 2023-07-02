@@ -18,5 +18,4 @@ public class Member {
             return NAME;
         }
     }
-
 }
