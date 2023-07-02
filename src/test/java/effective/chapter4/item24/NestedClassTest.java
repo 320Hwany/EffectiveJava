@@ -58,10 +58,11 @@ public class NestedClassTest {
 
         // when
         String returnName = member.myNameIs();
-
+        String hello = member.hello;
 
         // then
         assertThat(returnName).isEqualTo("이름");
+        assertThat(hello).isEqualTo("hello"); // 비정적인 문맥에서 사용될 때 바깥 클래스의 인스턴스 참조 가능
     }
 
     @Test
