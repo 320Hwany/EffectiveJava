@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class CustomArrayList {
 
-
     private static final int DEFAULT_CAPACITY = 10;
 
     private static final Object[] EMPTY_ELEMENTDATA = {};
