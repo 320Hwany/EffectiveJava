@@ -49,5 +49,14 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 [아이템 22](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item22.md)                   
 [아이템 23](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item23.md)                   
 [아이템 24](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item24.md)                   
-[아이템 25](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item25.md)                   
+[아이템 25](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item25.md)              
+
+## 제네릭
+
+제네릭은 자바 5부터 사용할 수 있습니다. 제네릭을 지원하기 전에는 컬렉션에 객체를 꺼낼 때마다 형변환을 해야 했습니다.   
+이때 실수로 엉뚱한 타입의 객체를 넣어두면 런타임에 형변환 오류가 발생합니다.    
+제네릭을 사용하면 컬렉션이 담을 수 있는 타입을 컴파일러에 알려주고 엉뚱한 타입의 객체를 넣으려는 시도를 컴파일 과정에서   
+차단하여 더 안전하고 명확한 프로그램을 만들 수 있게 해줍니다.   
+꼭 컬렉션이 아니더라도 이러한 이점을 누릴 수 있지만 코드가 복잡해질 수 있습니다.  
+이번 챕터에서는 제네릭의 이점을 최대로 하고 단점을 최소화하는 방법을 정리해보았습니다.       
 
