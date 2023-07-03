@@ -49,7 +49,7 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 [아이템 22](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item22.md)                   
 [아이템 23](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item23.md)                   
 [아이템 24](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item24.md)                   
-[아이템 25](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item25.md)              
+[아이템 25](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter4/item25.md)               
 
 ## 제네릭
 
@@ -60,3 +60,4 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 꼭 컬렉션이 아니더라도 이러한 이점을 누릴 수 있지만 코드가 복잡해질 수 있습니다.  
 이번 챕터에서는 제네릭의 이점을 최대로 하고 단점을 최소화하는 방법을 정리해보았습니다.       
 
+[아이템 26](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter5/item26.md)        

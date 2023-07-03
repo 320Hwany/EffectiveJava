@@ -1,7 +1,5 @@
-package effective.chapter5;
+package effective.chapter5.item26;
 
-import effective.chapter5.item26.Lion;
-import effective.chapter5.item26.Tiger;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
