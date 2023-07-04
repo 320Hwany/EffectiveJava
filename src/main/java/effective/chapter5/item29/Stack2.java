@@ -23,6 +23,8 @@ public class Stack2<E> {
         if (size == 0) {
             throw new EmptyStackException();
         }
+
+        // push에서 E 타입만 혀용하므로 이 형변환은 안전하다.
         @SuppressWarnings("unchecked") E result = (E) elements[--size];
         elements[size] = null; // 다 쓴 참조 해제
         return result;
