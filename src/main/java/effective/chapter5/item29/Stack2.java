@@ -30,6 +30,10 @@ public class Stack2<E> {
         return result;
     }
 
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
     private void ensureCapacity() {
         if (elements.length == size) {
             elements = Arrays.copyOf(elements, 2 * size + 1);
