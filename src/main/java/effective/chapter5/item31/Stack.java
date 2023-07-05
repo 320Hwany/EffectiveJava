@@ -40,12 +40,14 @@ public class Stack<E> {
         }
     }
 
+    // 생산자 매개변수에 와일드카드 타입 적용
     public void pushAll(Iterable<? extends E> src) {
         for (E e : src) {
             push(e);
         }
     }
 
+    // 소비자 매개변수에 와일드카드 타입 적용
     public void popAll(Collection<? super E> dst) {
         while (!isEmpty()) {
             dst.add(pop());
