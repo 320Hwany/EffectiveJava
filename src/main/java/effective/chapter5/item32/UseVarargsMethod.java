@@ -19,8 +19,8 @@ public class UseVarargsMethod {
     public void varargsMethodWithGeneric(List<String>... varages) {
         List<Integer> intList = List.of(42);
         Object[] objects = varages;
-        objects[0] = intList;
-        String s = varages[0].get(0);
+        objects[0] = intList;  // 힙 오염 발생
+        String s = varages[0].get(0);  // ClassCastException 발생
     }
 
     public <T> T[] pickTwo1(T a, T b, T c) {
