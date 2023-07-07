@@ -75,4 +75,5 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 다른 하나는 인터페이스의 일종인 애너테이션(annotation)입니다.   
 이번 챕터에서는 이 타입들을 올바르게 사용하는 방법에 대해 정리해보았습니다.   
 
-[아이템 34](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter6/item34.md)           
+[아이템 34](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter6/item34.md)            
+[아이템 35](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter6/item35.md)                    
