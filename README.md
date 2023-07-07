@@ -67,4 +67,11 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 [아이템 30](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter5/item30.md)                
 [아이템 31](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter5/item31.md)                 
 [아이템 32](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter5/item32.md)                         
-[아이템 33](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter5/item33.md)                                   
+[아이템 33](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter5/item33.md)                        
+
+## 열거 타입과 애너테이션
+
+자바에는 특수한 목적의 참조 타입이 2가지가 있습니다. 하나는 클래스의 일종인 열거 타입(enum)이고    
+다른 하나는 인터페이스의 일종인 애너테이션(annotation)입니다.   
+이번 챕터에서는 이 타입들을 올바르게 사용하는 방법에 대해 정리해보았습니다.   
+
