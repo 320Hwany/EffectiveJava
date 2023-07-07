@@ -222,7 +222,7 @@ public enum PayrollDay {
 이런 열거 타입에서는 switch 문 대신 상수별 메소드 구현을 사용합니다.   
 열거 타입 상수 일부가 같은 동작을 공유한다면 전략 열거 타입 패턴을 사용할 수 있습니다.       
 
-[아이템 34 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter6/item34)                                                   
+[아이템 34 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter6)                                                   
 [아이템 34 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter6/item34)      
 
 

@@ -1,7 +1,7 @@
-package effective.chapter6;
+package effective.chapter6.item34;
 
-import static effective.chapter6.PayrollDay.PayType.WEEKDAY;
-import static effective.chapter6.PayrollDay.PayType.WEEKEND;
+import static effective.chapter6.item34.PayrollDay.PayType.WEEKDAY;
+import static effective.chapter6.item34.PayrollDay.PayType.WEEKEND;
 
 // 전략 열거 타입 패턴
 public enum PayrollDay {

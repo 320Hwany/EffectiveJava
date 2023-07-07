@@ -1,10 +1,12 @@
-package effective.chapter6;
+package effective.chapter6.item34;
 
+import effective.chapter6.item34.Operation;
+import effective.chapter6.item34.Planet;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static effective.chapter6.IntEnumPattern.*;
-import static effective.chapter6.PayrollDay.*;
+import static effective.chapter6.item34.IntEnumPattern.*;
+import static effective.chapter6.item34.PayrollDay.*;
 import static org.assertj.core.api.Assertions.*;
 
 public class EnumTest {

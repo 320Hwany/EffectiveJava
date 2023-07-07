@@ -1,4 +1,4 @@
-package effective.chapter6;
+package effective.chapter6.item34;
 
 public enum Planet {
 

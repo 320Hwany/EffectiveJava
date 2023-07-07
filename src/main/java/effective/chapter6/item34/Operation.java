@@ -1,4 +1,4 @@
-package effective.chapter6;
+package effective.chapter6.item34;
 
 import java.util.Arrays;
 import java.util.Map;
