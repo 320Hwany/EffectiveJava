@@ -9,6 +9,7 @@ public class TextBad {
     public static final int STYLE_STRIKETHROUGH = 1 << 3;
 
     public int applyStyles(int styles) {
+        System.out.println(styles);
         return styles;
     }
 }

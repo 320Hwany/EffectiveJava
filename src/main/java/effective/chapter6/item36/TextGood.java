@@ -6,27 +6,15 @@ import java.util.Set;
 public class TextGood {
 
     public enum Style {
-        BOLD(1 << 0),
-        ITALIC(1 << 1),
-        UNDERLINE(1 << 2),
-        STRIKETHROUGH(1 << 3);
-
-        private final int value;
-
-        Style(int value) {
-            this.value = value;
-        }
-
-        public int getValue() {
-            return value;
-        }
+        BOLD,
+        ITALIC,
+        UNDERLINE,
+        STRIKETHROUGH;
     }
 
-    public int applyStyles(Set<Style> styles) {
-        int combinedStyle = 0;
-        for (Style style : styles) {
-            combinedStyle |= style.getValue();
-        }
-        return combinedStyle;
+    // 어떤 Set을 넘겨도 되나, EnumSet이 가장 좋다
+    public Set<Style> applyStyles(Set<Style> styles) {
+        System.out.println(styles);
+        return styles;
     }
 }
