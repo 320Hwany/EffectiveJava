@@ -2,8 +2,6 @@ package effective.chapter6.item37;
 
 import java.util.EnumMap;
 import java.util.Map;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.groupingBy;
