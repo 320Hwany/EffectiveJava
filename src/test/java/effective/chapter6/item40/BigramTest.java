@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 import java.util.HashSet;
 import java.util.Set;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 public class BigramTest {
 
     @Test
@@ -23,7 +25,7 @@ public class BigramTest {
         }
 
         // then
-        Assertions.assertThat(s.size()).isEqualTo(260);
+        assertThat(s.size()).isEqualTo(260);
     }
 
     @Test
@@ -40,6 +42,6 @@ public class BigramTest {
         }
 
         // then
-        Assertions.assertThat(s.size()).isEqualTo(26);
+        assertThat(s.size()).isEqualTo(26);
     }
 }
