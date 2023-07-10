@@ -1,5 +1,6 @@
 package effective.chapter6.item39;
 
+// 매개변수 하나짜리 애너테이션을 사용한 프로그램
 public class Sample2 {
 
     @ExceptionTest1(ArithmeticException.class)

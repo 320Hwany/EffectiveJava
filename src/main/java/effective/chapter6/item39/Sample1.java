@@ -1,5 +1,6 @@
 package effective.chapter6.item39;
 
+// 마커 애너테이션을 사용한 프로그램
 public class Sample1 {
 
     @CustomTest
