@@ -2,6 +2,7 @@ package effective.chapter6.item41;
 
 import java.io.Serializable;
 
+// Serializable 구현
 public class Member1 implements Serializable {
 
     private String name;
