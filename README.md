@@ -90,3 +90,4 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 이와 함께 스트림 API까지 추가되어 데이터 원소의 시퀀스 처리를 라이브러리 차원에서 지원하기 시작했습니다.    
 이번 챕터에서는 이 기능들을 효과적으로 사용하는 방법에 대해 정리해보았습니다.        
 
+[아이템 42](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter7/item42.md)                   
