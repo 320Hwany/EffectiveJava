@@ -79,7 +79,7 @@ public class LambdaTest {
     }
 
     @Test
-    @DisplayName("")
+    @DisplayName("열거 타입에 인스턴스 필드를 두는 방식")
     void test5() {
         // when
         double plus = Operation.PLUS.apply(10, 20);
