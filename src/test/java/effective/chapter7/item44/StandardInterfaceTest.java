@@ -62,8 +62,30 @@ public class StandardInterfaceTest {
     }
 
     @Test
-    @DisplayName("BiPredicate를 사용하여 removeEldestEntry를 재정의해 캐시로 사용")
+    @DisplayName("CustomLinkedHashMap는 LinkedHashMap을 상속 받아 함수 객체를 받는 생성자를 제공한 Custom 클래스")
     void test3() {
+        // given
+        BiPredicate<Map<String, Integer>, Map.Entry<String, Integer>> removalFunction = (m, eldest) -> m.size() > 3;
+
+        // when
+        CustomLinkedHashMap<String, Integer> map = CustomLinkedHashMap.createCache(removalFunction);
+
+        map.put("a", 1);
+        map.put("b", 2);
+        map.put("c", 3);
+        map.put("d", 4);
+        map.put("e", 5);
+
+        // then
+        assertThat(map.size()).isEqualTo(3);
+        assertThat(map.get("c")).isEqualTo(3);
+        assertThat(map.get("d")).isEqualTo(4);
+        assertThat(map.get("e")).isEqualTo(5);
+    }
+
+    @Test
+    @DisplayName("BiPredicate를 사용하여 removeEldestEntry를 재정의해 캐시로 사용")
+    void test4() {
         // given
         BiPredicate<Map<String, Integer>, Map.Entry<String, Integer>> removalFunction = (m, eldest) -> m.size() > 3;
 
@@ -88,7 +110,7 @@ public class StandardInterfaceTest {
 
     @Test
     @DisplayName("UnaryOperator를 사용하여 반환값과 인수의 타입이 같은 함수를 만든다")
-    void test4() {
+    void test5() {
         // given
         UnaryOperator<String> toLowerCaseOperator = String::toLowerCase;
 
@@ -101,7 +123,7 @@ public class StandardInterfaceTest {
 
     @Test
     @DisplayName("BinaryOperator 사용하여 반환값과 인수의 타입이 같은 함수를 만든다")
-    void test5() {
+    void test6() {
         // given
         BinaryOperator<BigInteger> binaryOperator = BigInteger::add;
 
@@ -116,7 +138,7 @@ public class StandardInterfaceTest {
 
     @Test
     @DisplayName("Predicate를 사용하여 인수하나를 받아 boolean 값을 반환합니다")
-    void test6() {
+    void test7() {
         // given
         Predicate<Collection<?>> isEmptyPredicate = Collection::isEmpty;
         Collection<String> collection = List.of();
@@ -130,7 +152,7 @@ public class StandardInterfaceTest {
 
     @Test
     @DisplayName("Function을 사용하여 인수와 반환 타입이 다른 함수를 만듭니다")
-    void test7() {
+    void test8() {
         // given
         Function<Object[], List<Object>> asListFunction = Arrays::asList;
 
@@ -150,7 +172,7 @@ public class StandardInterfaceTest {
 
     @Test
     @DisplayName("Supplier를 사용하여 인수를 받지 않고 값을 반환하는 함수를 만듭니다")
-    void test8() {
+    void test9() {
         // given
         Supplier<Instant> nowSupplier = Instant::now;
 
@@ -163,7 +185,7 @@ public class StandardInterfaceTest {
 
     @Test
     @DisplayName("Consumer를 사용하여 인수를 하나 받고 반환 값이 없는 함수를 만듭니다")
-    void test9() {
+    void test10() {
         // given
         Consumer<String> consumer = System.out::println;
 
