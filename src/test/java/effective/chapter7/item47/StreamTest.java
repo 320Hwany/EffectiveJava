@@ -20,7 +20,9 @@ public class StreamTest {
         Stream<String> stream = strings.stream();
 
         // when
-        Iterator<String> iterator = stream.iterator();
+        Iterable<String> iterableOf = iterableOf(stream);
+        Iterator<String> iterator = iterableOf.iterator();
+
         String hello = iterator.next();
         String hi = iterator.next();
         String world = iterator.next();
@@ -46,7 +48,7 @@ public class StreamTest {
     }
 
     @Test
-    @DisplayName("입력 리스트의 모든 부분 리스트를 스트림으로 변환한다")
+    @DisplayName("입력 리스트의 모든 부분 리스트를 스트림으로 변환한")
     void test3() {
         // given
         List<String> strings = List.of("hello", "hi", "world");
