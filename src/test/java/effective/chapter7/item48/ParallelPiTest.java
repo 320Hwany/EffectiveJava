@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.time.Duration;
 import java.time.LocalDateTime;
 
+import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ParallelPiTest {
@@ -26,6 +27,6 @@ class ParallelPiTest {
         Duration duration2 = Duration.between(c, d);
 
         // then
-        Assertions.assertThat(duration1.toMillis()).isGreaterThan(duration2.toMillis());
+        assertThat(duration1.toMillis()).isGreaterThan(duration2.toMillis());
     }
 }
