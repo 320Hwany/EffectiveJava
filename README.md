@@ -105,4 +105,5 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 이번 챕터의 내용 중 상당 부분은 메소드뿐 아니라 생성자에도 적용됩니다.     
 챕터 4의 '클래스와 인터페이스'와 마찬가지로 이번 챕터도 사용성, 견고성, 유연성에 집중해서 정리해보았습니다.       
 
-[아이템 49](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item49.md)      
+[아이템 49](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item49.md)       
+[아이템 50](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item50.md)             

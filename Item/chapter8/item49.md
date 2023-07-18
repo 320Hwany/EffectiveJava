@@ -48,4 +48,4 @@ assert가 실패하면 AssertionError를 던지며 런타임에 아무런 효과
 이러한 습관은 유효성 검사가 실제 오류를 처음 걸러낼 때 충분히 가치가 있습니다.           
 
 [아이템 49 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter8/item49)                                                                                  
-[아이템 49 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter8/item49)         
+[아이템 49 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter8/item49)          
