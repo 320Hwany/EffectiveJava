@@ -1,4 +1,4 @@
-package effective.chapter7.item49;
+package effective.chapter8.item49;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

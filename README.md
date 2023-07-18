@@ -96,4 +96,13 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 [아이템 45](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter7/item45.md)                                
 [아이템 46](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter7/item46.md)                                         
 [아이템 47](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter7/item47.md)                              
-[아이템 48](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter7/item48.md)                              
+[아이템 48](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter7/item48.md)                          
+
+## 메소드
+
+이번 챕터에서는 메소드를 설계할 때 주의할 점들을 살펴보겠습니다. 구체적으로는 매개변수와 반환값을 어떻게 처리해야 하는지,    
+메소드 시그니처는 어떻게 설계해야 하는지, 문서화는 어떻게 해야 하는지를 다룹니다.   
+이번 챕터의 내용 중 상당 부분은 메소드뿐 아니라 생성자에도 적용됩니다.     
+챕터 4의 '클래스와 인터페이스'와 마찬가지로 이번 챕터도 사용성, 견고성, 유연성에 집중해서 정리해보았습니다.       
+
+[아이템 49](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item49.md)      
