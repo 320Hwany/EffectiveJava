@@ -9,7 +9,7 @@
 ## 단순 try-finally 방식 
 
 ### firstLineOfFile
-```
+```java
 static String firstLineOfFile(String path) throws IOException {
     BufferedReader br = new BufferedReader(new FileReader(path));
     try {
@@ -22,7 +22,7 @@ static String firstLineOfFile(String path) throws IOException {
 자원을 하나 더 사용해보겠습니다.  
 
 ### copy
-```
+```java
 static void copy(String src, String dst) throws IOException {
     InputStream in = new FileInputStream(src);
     try {
@@ -47,7 +47,7 @@ static void copy(String src, String dst) throws IOException {
 이러한 문제는 try-with-resources를 사용하여 해결해보겠습니다.   
 
 ### copy
-```
+```java
 static void copy(String src, String dst) throws IOException {
     try (InputStream in = new FileInputStream(src);
         OutputStream out = new FileOutputStream(dst)) {
@@ -63,7 +63,7 @@ static void copy(String src, String dst) throws IOException {
 또한 try-with-resources에도 catch 절을 사용할 수 있습니다.    
 
 ### firstLineOfFile
-```
+```java
 static String firstLineOfFile(String path) throws IOException {
     try (BufferedReader br = new BufferedReader(new FileReader(path))) {
         return br.readLine();

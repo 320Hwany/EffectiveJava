@@ -5,12 +5,12 @@
 대부분의 비검사 경고는 쉽게 제거할 수 있습니다.   
 
 다음과 같이 작성하면 컴파일러가 경고를 보냅니다.     
-````
+````java
 Set<String> strings = new HashSet();
 ````
 
 자바 7 이후부터는 다음과 같이 수정해도 컴파일러가 올바른 실제 타입 매개변수를 추론해줍니다.     
-````
+````java
 Set<String> strings = new HashSet<>();
 ````
 
@@ -24,7 +24,7 @@ Set<String> strings = new HashSet<>();
 
 ### toArray
 
-````
+````java
 public <T> T[] toArray(T[] a) {
     if (a.length < size)  
         return (T[]) Arrays.copyOf(elementData, size, a.getClass());
@@ -39,7 +39,7 @@ public <T> T[] toArray(T[] a) {
 비검사 경고를 보내는 데 타입 안정성이 확실하다면 @SuppressWarnings를 사용할 수 있습니다.      
 이때 그 경고를 무시해도 안전한 이유를 항상 주석으로 남겨야 합니다.   
 
-````
+````java
 public <T> T[] toArray(T[] a) {
     if (a.length < size) {
         @SuppressWarnings("unchecked")  // 생성한 배열과 매개변수로 받은 배열의 타입이 T[]로 같으므로

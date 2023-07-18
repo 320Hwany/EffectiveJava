@@ -11,7 +11,7 @@
 더 심하게는 클라이언트 코드가 내부 구현에 해당하는 이 상수들에 종속되게 합니다.
 
 ### HelloInterface
-````
+````java
 // 상수 인터페이스 - 안티패턴
 public interface HelloInterface {
 
@@ -27,7 +27,7 @@ public interface HelloInterface {
 하지만 이때도 리플렉션으로는 인스턴스화를 할 수 있습니다.   
 
 ### HelloConstant
-````
+````java
 public class HelloConstant {
 
     // 인스턴스화 방지
@@ -43,7 +43,7 @@ public class HelloConstant {
 ### HelloConstantSingleton
 
 enum 클래스로 상수를 관리한다면 완벽한 싱글톤을 보장할 수 있습니다.   
-````
+````java
 public enum HelloConstantSingleton {
 
     HELLO("hello"),

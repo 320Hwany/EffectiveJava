@@ -11,7 +11,7 @@
 
 ## Favorites - 타입 안전 이종 컨테이너 패턴
 
-````
+````java
 public class Favorites {
 
     private Map<Class<?>, Object> favorites = new HashMap<>();
@@ -36,7 +36,7 @@ getFavorite의 구현은 Class의 cast 메소드를 사용해 이 객체 참조�
 위와 같이 Favorites 클래스에는 알아두어야 할 제약이 2가지 있습니다.   
 첫 번째는 악의적인 클라이언트가 Class 객체를 제네릭이 아닌 로타입으로 넘기면 인스턴스의 타입 안전성이   
 쉽게 깨집니다. 이때 putFavorite의 instance를 다음과 같이 동적 형변환 해주면 피할 수 있습니다.    
-````
+````java
 public <T> void putFavorite(Class<T> type, T instance) {
     favorites.put(Objects.requireNonNull(type), instance);
 }

@@ -4,7 +4,7 @@
 마커 인터페이스라고 합니다. 대표적인 예로 Serializable이 있습니다.      
 
 ### Serializable
-````
+````java
 public interface Serializable {
 }
 ````
@@ -19,7 +19,7 @@ Serializable은 자신을 구현한 클래스의 인스턴스는 ObjectOutputStr
 Serializable은 objectOutputStream.writeObject의 메소드가 매개변수로 Object를 받습니다.  
 즉 직렬화할 수 없는 객체를 넘겨도 런타임에야 문제를 확인하여 마커 인터페이스의 이점을 잘 살리지 못하였습니다.      
 
-````
+````java
 @Test
 @DisplayName("마커 인터페이스를 사용하는 주된 이유는 컴파일타임 오류 검출인데 이점을 살리지 못한 케이스입니다")
 void test2() throws IOException {

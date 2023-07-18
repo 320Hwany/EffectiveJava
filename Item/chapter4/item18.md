@@ -7,7 +7,7 @@
 
 ### InstrumentedHashSet
 
-````
+````java
 public class InstrumentedHashSet<E> extends HashSet<E> {
 
     private int addCount = 0;
@@ -39,7 +39,7 @@ public class InstrumentedHashSet<E> extends HashSet<E> {
 
 ### InstrumentedHashSetTest
 
-````
+````java
 @Test
 @DisplayName("addAll() 메소드 실행 후 3을 반환하리라 기대하지만 6을 반환합니다 - HashSet 상속")
 void test() {
@@ -67,7 +67,7 @@ getAddCount가 중복으로 계산되어 3이 아니라 6을 반환합니다.
 예를들어 Animal, Tiger 클래스를 정의할 때 상속을 사용하지 않고 컴포지션을 사용해보겠습니다.    
 
 ### Animal
-````
+````java
 public class Animal {
 
     private String name;
@@ -89,7 +89,7 @@ public class Animal {
 ````
 
 ### Tiger
-````
+````java
 public class Tiger {
 
     private Animal animal;

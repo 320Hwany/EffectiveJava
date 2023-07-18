@@ -4,7 +4,7 @@
 각 상수에 서로 다른 2의 거듭제곱 값을 할당한 정수 열거 패턴을 예시로 들겠습니다.    
 
 ##  비트 필드 열거 상수 - bad
-````
+````java
 public class TextBad {
 
     public static final int STYLE_BOLD = 1 << 0;
@@ -19,7 +19,7 @@ public class TextBad {
 }
 ````
 
-````
+````java
 TextBad textBad = new TextBad();
 int styles = textBad.applyStyles(TextBad.STYLE_BOLD | TextBad.STYLE_ITALIC);
 ````
@@ -32,7 +32,7 @@ int styles = textBad.applyStyles(TextBad.STYLE_BOLD | TextBad.STYLE_ITALIC);
 java.util 패키지의 EnumSet 클래스는 열거 타입 상수의 값으로 구성된 집합을 효과적으로 표현해줍니다.   
 
 ## EnumSet - 비트 필드를 대체하는 현대적인 기법
-````
+````java
 public class TextGood {
 
     public enum Style {
@@ -50,7 +50,7 @@ public class TextGood {
 }
 ````
 
-````
+````java
 TextGood textGood = new TextGood();
 Set<Style> styles2 = textGood.applyStyles(EnumSet.of(Style.BOLD, Style.ITALIC));
 ````

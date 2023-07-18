@@ -6,7 +6,7 @@
 
 ## 메소드 참조의 사용이 좋은 경우
 
-````
+````java
 map.merge(key, 1, (count, incr) -> count + incr);
 ````
 
@@ -14,7 +14,7 @@ map.merge(key, 1, (count, incr) -> count + incr);
 자바 8이 되면서 Integer 클래스(와 모든 기본 타입의 박싱 타입)는 이 람다와 기능이 같은 정적 메소드   
 sum을 제공하기 시작했습니다.   
 
-````
+````java
 map.merge(key, 1, Integer::sum);
 ````
 
@@ -25,11 +25,11 @@ map.merge(key, 1, Integer::sum);
 
 하지만 메소드 참조가 항상 가독성을 좋게하는 것은 아닙니다.   
 
-````
+````java
 service.execute(GoshThisClassNameIsHumongous::action);
 ````
 
-````
+````java
 service.execute(() -> action());
 ````
 
@@ -41,7 +41,7 @@ service.execute(() -> action());
 
 1. 정적 메소드 참조
 
-````
+````java
 Integer::parseInt
 
 str -> Integer.parseInt(str)
@@ -49,7 +49,7 @@ str -> Integer.parseInt(str)
 
 2. 한정적 (인스턴스) 메소드 참조
 
-````
+````java
 Instant.now()::isAfter
 
 Instant then = Instant.now();
@@ -58,7 +58,7 @@ t -> then.isAfter(t);
 
 3. 비한정적 (인스턴스) 메소드 참조
 
-````
+````java
 String::toLowerCase
 
 str -> str.toLowerCase()
@@ -66,7 +66,7 @@ str -> str.toLowerCase()
 
 4. 클래스 생성자 메소드 참조
 
-````
+````java
 TreeMap<K,V>::new
 
 () -> new TreeMap<K,V>()
@@ -74,7 +74,7 @@ TreeMap<K,V>::new
 
 5. 배열 생성자
 
-````
+````java
 int[]::new
 
 len -> new int[len}

@@ -5,7 +5,7 @@
 
 ## HamburgerSet
 
-```
+```java
 public class HamburgerSet {
 
     private final Hamburger hamburger;

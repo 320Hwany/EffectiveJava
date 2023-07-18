@@ -5,7 +5,7 @@
 다음 코드는 연주자가 1명인 솔로부터 10명인 디텍트까지 정의한 열거 타입입니다.     
 
 ## EnsembleBad
-````
+````java
 public enum EnsembleBad {
     SOLO, DUET, TRIO, QUARTET, QUINTET,
     SEXTET, SEPTET, OCTET, NONET, DECTET;
@@ -23,7 +23,8 @@ public enum EnsembleBad {
 해결책은 간단합니다. 열거 타입 상수에 연결된 값을 ordinal 메소드로 얻지 말고 인스턴스 필드에 저장하면 됩니다.   
 
 ## EnsembleGood
-````
+
+````java
 public enum EnsembleGood {
 
     SOLO(1), DUET(2), TRIO(3),

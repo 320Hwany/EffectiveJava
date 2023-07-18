@@ -14,7 +14,8 @@
 소비자라면 `<? super T>`를 사용해야 합니다.  
 
 ### Stack
-````
+
+````java
 public class Stack<E> {
 
     ...
@@ -51,7 +52,7 @@ popAll 메소드에서 dst 매개변수는 E 인스턴스를 소비하므로 dst
 사용해도 괜찮은 경우가 많습니다. 두 경우를 한번 비교해 보겠습니다.     
 
 ### Swap
-````
+````java
 public class Swap {
 
     public static <E> void swap1(List<E> list, int i, int j) {

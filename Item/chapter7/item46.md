@@ -12,7 +12,7 @@
 
 ### 빈도표에서 가장 흔한 단어 10개를 뽑아내는 파이프라인
 
-````
+````java
 @Test
 void test1() {
     // given
@@ -45,7 +45,7 @@ void test1() {
 
 ### toMap 수집기를 사용하여 문자열을 열거 타입 상수에 매핑한다
 
-````
+````java
 @Test
 void test2() {
     // given && when
@@ -62,7 +62,7 @@ void test2() {
 
 ### 각 키와 해당 키의 특정 원소를 연관 짓는 맵을 생성하는 수집기
 
-````
+````java
 @Test
 void test3() {
     // given
@@ -91,7 +91,7 @@ void test3() {
 
 ### 마지막에 쓴 값을 취하는 수집기
 
-````
+````java
 @Test
 void test4() {
     // given
@@ -118,7 +118,7 @@ void test4() {
 
 ### groupingBy 분류 함수 하나를 인수로 받아 맵을 반환한다
 
-````
+````java
 @Test
 void test5() {
     // given

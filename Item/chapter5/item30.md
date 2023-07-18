@@ -7,7 +7,7 @@
 ### 로 타입 사용
 
 컴파일은 되지만 잠재적 위험을 가지고 있습니다.   
-````
+````java
 public static Set union(Set s1, Set s2) {
     Set result = new HashSet(s1);
     result.addAll(s2);
@@ -18,7 +18,7 @@ public static Set union(Set s1, Set s2) {
 ### 제네릭 메소드 
 
 타입 매개변수는 <E>이고 반환 타입은 Set<E>인 제네릭 메소드로 수정할 수 있습니다.   
-````
+````java
 public static <E> Set<E> union(Set<E> s1, Set<E> s2) {
     Set<E> result = new HashSet<>(s1);
     result.addAll(s2);
@@ -33,7 +33,7 @@ IDENTITY_FN를 UnaryOperator<T>로 형변환하면 비검사 형변환 경고가
 하지만 항등함수란 입력 값을 수정없이 그대로 반환하는 특별한 함수이기 때문에   
 T가 어떤 타입이든 `UnaryOperator<T>` 를 사용해도 타입 안전합니다.   
 
-````
+````java
 public class GenericMethod {
 
     private static UnaryOperator<Object> IDENTITY_FN = (t) -> t;
@@ -48,7 +48,7 @@ public class GenericMethod {
 ## 재귀적 타입 한정
 
 재귀적 타입 한정은 주로 타입의 자연적 순서를 정하는 Comparable 인터페이스와 함께 쓰입니다.   
-````
+````java
 // 모든 타입 E는 자신과 비교할 수 있다
 public static <E extends Comparable<E>> E max(Collection<E> c) {
     if (c.isEmpty()) {

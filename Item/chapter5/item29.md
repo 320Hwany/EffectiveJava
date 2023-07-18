@@ -5,7 +5,7 @@ JDK가 제공하는 제네릭 타입과 메소드를 사용하는 일은 일반�
 다음과 같이 제네릭을 사용하지 않은 Object 기반 스택을 리팩토링 해보겠습니다.        
 
 ## Stack
-````
+````java
 public class Stack {
 
     private Object[] elements;
@@ -45,7 +45,7 @@ public class Stack {
 첫 번째는 제네릭 배열 생성을 금지하는 제약을 대놓고 우회하는 방법입니다.    
 
 ### Stack1
-````
+````java
 // 배열을 사용한 코드를 제네릭으로 만드는 방법 - 1
 // 배열의 런타임 타입이 컴파일 타임 타입과 달라 힙 오염이 발생할 수 있습니다
 public class Stack1<E> {
@@ -87,7 +87,7 @@ public class Stack1<E> {
 컴파일 타임 타입과 달라 힙 오염이 발생할 수 있습니다.    
 
 ### Stack2
-````
+````java
 // 배열을 사용한 코드를 제네릭으로 만드는 방법 - 2
 public class Stack2<E> {
 
@@ -129,7 +129,7 @@ public class Stack2<E> {
 물론 '아이템 28 - 배열보다는 리스트를 우선하라'와 모순되어 보이지만 우선적으로 고려하라는 것이지   
 항상 제네릭 타입으로의 변환이 가능한 것은 아닙니다.   
 대다수의 제네릭 타입은 타입 매개변수에 아무런 제약을 두지 않습니다.   
-````
+````java
 Stack<Object>, Stack<int[]>, Stack<List<String>>, Stack
 ````
 위와 같이 어떤 참조 타입으로도 Stack을 만들 수 있습니다. 단 박싱되지 않은 기본 타입은 사용할 수 없습니다.        

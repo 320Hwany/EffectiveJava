@@ -4,7 +4,7 @@
 다음 코드는 원과 사각형을 표현할 수 있는 클래스입니다.    
 
 ## Figure - 태그 달린 클래스
-````
+````java
 public class Figure {
 
     public enum Shape{ RECTANGLE, CIRCLE};
@@ -60,7 +60,7 @@ public class Figure {
 
 공통적인 area 메소드만 Figure 추상 클래스에 정의하고 이를 상속받아서 확장할 수 있습니다.
 
-````
+````java
 public abstract class Figure {
 
     public abstract double area();
@@ -68,7 +68,7 @@ public abstract class Figure {
 ````
 
 ### Rectangle
-````
+````java
 public class Rectangle extends Figure {
 
     private final double length;
@@ -96,7 +96,7 @@ public class Rectangle extends Figure {
 ````
 
 ### Circle
-````
+````java
 public class Circle extends Figure {
 
     private final double radius;

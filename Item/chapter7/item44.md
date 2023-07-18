@@ -5,7 +5,7 @@
 이를 대체하는 현대적인 해법은 같은 효과의 함수 객체를 받는 정적 팩토리나 생성자를 제공하는 것입니다.    
 즉 함수 객체를 매개 변수로 받는 생성자와 메소드를 더 많이 만들어야 한다는 것입니다.    
 
-````
+````java
 LinkedHashMap<String, Integer> map = new LinkedHashMap<>() {
 
         @Override
@@ -22,7 +22,7 @@ LinkedHashMap을 다시 구현한다고 생각하고 CustomLinkedHashMap을 만�
 
 ## CustomLinkedHashMap - LinkedHashMap을 상속 받아 함수 객체를 받는 생성자를 제공한 Custom 클래스
 
-````
+````java
 public class CustomLinkedHashMap<K, V> extends LinkedHashMap<K, V> {
 
     private final BiPredicate<Map<K, V>, Map.Entry<K, V>> removalFunction;
@@ -44,7 +44,7 @@ public class CustomLinkedHashMap<K, V> extends LinkedHashMap<K, V> {
 }
 ````
 
-````
+````java
 @Test
 @DisplayName("CustomLinkedHashMap는 LinkedHashMap을 상속 받아 함수 객체를 받는 생성자를 제공한 Custom 클래스")
 void test3() {
@@ -81,7 +81,7 @@ void test3() {
 반환 값과 인수의 타입이 같은 UnaryOperator, BinaryOperator             
 인수 하나를 받고 boolean을 반환하는 Predicate 인수와 반환 타입이 다른 Function      
 인수를 받지 않고 값을 반환하는 Supplier, 인수 하나를 받고 반환 값이 없는 Consumer가 있습니다.      
-````
+````java
 @Test
 @DisplayName("UnaryOperator를 사용하여 반환값과 인수의 타입이 같은 함수를 만든다")
 void test5() {

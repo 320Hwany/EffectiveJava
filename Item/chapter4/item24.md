@@ -7,7 +7,7 @@
 ## 정적 멤버 클래스
 
 ## Calculator
-````
+````java
 // 정적 멤버 클래스
 public class Calculator {
 
@@ -22,7 +22,7 @@ public class Calculator {
 Calculator 안에 Operation을 비롯한 여러 정적 멤버 클래스를 정의할 수 있습니다.   
 이때 Calculator를 인스턴스화 하지 않고도 사용할 수 있습니다.    
 
-````
+````java
 @Test
 @DisplayName("Calculator 안에 Operation 정적 멤버 클래스를 정의하여 사용합니다")
 void test3() {
@@ -44,7 +44,8 @@ void test3() {
 없이는 생성할 수 없습니다.    
 
 ### Parent1
-````
+
+````java
 // 비정적 멤버 클래스
 public class Parent1 {
 
@@ -85,7 +86,8 @@ static을 생략하면 바깥 인스턴스로의 숨은 외부 참조를 갖게 
 참조할 수 있습니다.   
 
 ### Member1
-````
+
+````java
 // 학습 테스트에서 익명 클래스로 사용
 public class Member1 {
 
@@ -97,7 +99,7 @@ public class Member1 {
 }
 ````
 
-````
+````java
 @Test
 @DisplayName("익명 클래스를 사용하여 Member의 메소드를 재정의할 수 있습니다")
 void test4() {
@@ -123,7 +125,7 @@ void test4() {
 ## 지역 클래스
 
 ### Member2
-````
+````java
 // 지역 클래스
 public class Member2 {
 
@@ -143,7 +145,7 @@ public class Member2 {
 }
 ````
 
-````
+````java
 @Test
 @DisplayName("메소드 안에 지역 클래스를 정의하여 사용할 수 있습니다")
 void test5() {

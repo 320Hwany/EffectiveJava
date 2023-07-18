@@ -22,7 +22,7 @@ Comparable은 타입을 인수로 받는 제네릭 인터페이스이므로 comp
 다음은 Comparable을 구현한 Member 클래스이고 compareTo 메소드를 오버라이딩한 예시입니다.    
 
 ### Member
-```
+```java
 public class Member implements Comparable<Member> {
 
     private String name;
@@ -54,7 +54,7 @@ public class Member implements Comparable<Member> {
 
 ### MemberWithComparator
 
-```
+```java
 public class MemberWithComparator implements Comparable<MemberWithComparator> {
 
     private String name;
@@ -82,7 +82,7 @@ public class MemberWithComparator implements Comparable<MemberWithComparator> {
 또한 Comparator는 아예 Comparable이 구현되지 않은 클래스를 정렬할 때 정의하여 사용할 수 있습니다. 
 
 
-```
+```java
 Collections.sort(members, Comparator.comparingInt(Member::getAge)
                 .thenComparingDouble(Member::getHeight)
                 .thenComparingDouble(Member::getWeight));

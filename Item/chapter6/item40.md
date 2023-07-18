@@ -7,7 +7,7 @@
 
 ## BigramBad
 
-````
+````java
 public class BigramBad {
 
     private final char first;
@@ -32,7 +32,7 @@ public class BigramBad {
 equals를 오버라이딩한 것 같지만 매개변수를 보면 Object가 아니라 BigramBad 이므로 오버로딩한 것입니다.   
 하지만 이경우에 컴파일러는 에러를 발생시키지 않습니다. 오버로딩을 한 것이라고 생각하는 것입니다.    
 
-````
+````java
 @Test
 @DisplayName("Overriding이 아니라 Overloading을 해도 @Override를 사용하지 않으면 컴파일 에러가 발생하지 않는다")
 void test1() {
@@ -56,7 +56,7 @@ equals, hashCode가 잘 적용되었다면 Set 인터페이스에 중복을 제�
 
 ## BigramGood - equals, hashCode 재정의시 @Override 를 사용함
 
-````
+````java
 public class BigramGood {
 
     private final char first;
@@ -84,7 +84,7 @@ public class BigramGood {
 
 이제 오버라이딩으로 equals, hashCode 메소드를 재정의 하였습니다.   
 
-````
+````java
 @Test
 @DisplayName("@Override를 사용하면 Overriding을 하지 않았을 때 컴파일 에러를 발생시킬 수 있습니다")
 void test2() {

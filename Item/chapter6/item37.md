@@ -1,7 +1,7 @@
 # 아이템 37 - ordinal 인덱싱 대신 EnumMap을 사용하라
 
 ## Plant
-````
+````java
 public class Plant {
 
     enum LifeCycle {
@@ -33,7 +33,7 @@ public class Plant {
  
 위와 같은 문제의 해결책으로 EnumMap이 있습니다. EnumMap은 열거 타입을 키로 사용하도록 설계한 아주 빠른 Map 구현체입니다.     
 
-````
+````java
 // given
 List<Plant> garden =
         List.of(new Plant("hello1", Plant.LifeCycle.ANNUAL),
@@ -56,14 +56,14 @@ EnumMap의 생성자가 받는 키 타입의 Class 객체는 한정적 타입 �
 
 ## 스트림을 사용한 코드 1 - EnumMap을 사용하지 않음
 
-````
+````java
 Map<Plant.LifeCycle, List<Plant>> plantsByLifCycle =
         Arrays.stream(gardenArray).collect(groupingBy(p -> p.lifeCycle));
 ````
 
 ## 스트림을 사용한 코드 2 - EnumMap을 이용해 데이터와 열거 타입을 매핑
 
-````
+````java
 EnumMap<Plant.LifeCycle, Set<Plant>> plantsByLifCycle =
             Arrays.stream(gardenArray).collect(groupingBy(p -> p.lifeCycle,
                 () -> new EnumMap<>(Plant.LifeCycle.class), toSet()));
@@ -76,7 +76,7 @@ Enum 버전은 언제나 식물의 생애주기당 하나씩의 중첩 맵을 �
 
 ### Phase
 
-````
+````java
 public enum Phase {
 
     SOLID, LIQUID, GAS;

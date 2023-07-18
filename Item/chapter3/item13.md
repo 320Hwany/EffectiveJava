@@ -10,7 +10,7 @@ Cloneable을 구현한 클래스는 clone 메소드를 public으로 제공하며
 ## 가변 상태를 참조하지 않은 클래스용 clone 메소드
 
 모든 필드가 기본 타입이거나 불변 객체를 참조하는 clone 메소드는 다음과 같이 구현할 수 있습니다.    
-```
+```java
 @Override
 public Member clone() {
     try {
@@ -27,7 +27,7 @@ public Member clone() {
 
 elements는 Object 배열이고 배열을 복제할 때는 유일하게 clone 메소드 사용을 권장합니다.     
 
-```
+```java
 @Override
 public Stack clone() {
     try {

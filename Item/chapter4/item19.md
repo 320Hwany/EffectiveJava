@@ -13,7 +13,7 @@ API 문서의 메소드 설명 끝에서 종종 "Implementation Requirements"로
 다음은 이 규칙을 어긴 예시입니다.    
 
 ### Animal
-````
+````java
 public class Animal {
 
     public Animal() {
@@ -28,7 +28,7 @@ public class Animal {
 
 ### Tiger
 
-````
+````java
 public class Tiger extends Animal {
 
     private final String name;
@@ -54,7 +54,7 @@ public class Tiger extends Animal {
 상속을 금지하는 방법은 2가지가 있습니다.
 
 ### Member1
-````
+````java
 // 상속을 금지하는 첫번째 방법 - final 클래스
 public final class Member1 {
 
@@ -69,7 +69,7 @@ public final class Member1 {
 ````
 
 ### Member2
-````
+````java
 // 상속을 금지하는 두번째 방법 - 생성자 private, public 정적 팩토리
 public class Member2 {
 

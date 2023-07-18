@@ -7,7 +7,7 @@
 
 private 생성자를 추가하면 클래스의 인스턴스화를 막을 수 있습니다.        
 
-```
+```java
 public class Member {
 
     private Member() {

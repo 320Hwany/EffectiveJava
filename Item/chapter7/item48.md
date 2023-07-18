@@ -30,7 +30,7 @@
 
 병렬화에 적합한 예시를 하나 살펴보겠습니다.    
 
-````
+````java
 public class ParallelPi {
 
     static long piWithoutParallel(long n) {
@@ -50,7 +50,7 @@ public class ParallelPi {
 }
 ````
 
-````
+````java
 class ParallelPiTest {
 
     @Test

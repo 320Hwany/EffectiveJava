@@ -7,7 +7,7 @@
 
 ## 제네릭과 varargs를 혼용하면 타입 안전성이 깨진다
 
-````
+````java
 public void varargsMethodWithGeneric(List<String>... varages) {
     List<Integer> intList = List.of(42);
     Object[] objects = varages;
@@ -26,7 +26,7 @@ public void varargsMethodWithGeneric(List<String>... varages) {
 1. varargs 매개변수 배열에 아무것도 저장하지 않는다
 2. 그 배열을 신뢰할 수 없는 코드에 노출하지 않는다
 
-````
+````java
 @SafeVarargs
 public static <T> List<T> flatten1(List<? extends T>... lists) {
     List<T> result = new ArrayList<>();
@@ -38,7 +38,7 @@ public static <T> List<T> flatten1(List<? extends T>... lists) {
 ````
 
 ## 제네릭 varargs 매개변수를 List로 대체한 예시 - 타입 안전하다
-````
+````java
 public static <T> List<T> flatten2(List<List<? extends T>> lists) {
     List<T> result = new ArrayList<>();
     for (List<? extends T> list : lists) {

@@ -16,7 +16,7 @@ List<E>의 로 타입은 List 입니다. 로 타입은 제네릭이 지원되기
 
 ### 로 타입은 컴파일 시점에 오류를 발견하지 못한다
 
-````
+````java
 @Test
 @DisplayName("로 타입은 타입을 잘못 넣어도 컴파일 시점에 잡을 수 없습니다")
 void test1() {
@@ -40,7 +40,7 @@ void test1() {
 
 ### 비한정적 와일드카드 타입은 안전하며 유연하다
 
-````
+````java
 @Test
 @DisplayName("비한정적 와일드카드 타입은 안전하고 로 타입은 안전하지 않다")
 void test2() {
@@ -63,7 +63,7 @@ void test2() {
 
 ### Class 리터럴
 
-````
+````java
 @Test
 @DisplayName("로 타입을 사용해도 되는 예외 1 - class 리터럴")
 void test3() {
@@ -83,7 +83,7 @@ void test3() {
 런타임에는 제네릭 타입 정보가 지워지므로 instanceOf 연산자는 비한정적 와일드카드 타입    
 이외의 매개변수화 타입에는 적용할 수 없습니다.       
 
-````
+````java
 @Test
 @DisplayName("로 타입을 사용해도 되는 예외 2 - instanceOf 연산자")
 void test4() {

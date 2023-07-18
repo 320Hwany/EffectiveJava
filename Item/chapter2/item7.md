@@ -5,7 +5,7 @@ C, C++처럼 메모리를 직접 관리해야 하는 언어와 달리 자바는 
 
 ## Stack
 
-```
+```java
 public class Stack {
 
     private Object[] elements;
@@ -42,7 +42,7 @@ public class Stack {
 pop() 메소드를 수정해보겠습니다.     
 
 ## pop
-```
+```java
 public Object pop() {
     if (size == 0) {
         throw new EmptyStackException();

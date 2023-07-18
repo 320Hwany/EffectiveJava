@@ -19,7 +19,7 @@
 
 ### SynchronizedCollectionTest
 
-````
+````java
 public class SynchronizedCollectionTest {
 
     @Test

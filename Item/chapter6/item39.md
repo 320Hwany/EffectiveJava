@@ -7,7 +7,7 @@
 애너테이션은 이 모든 문제를 해결해주는 멋진 개념으로 JUnit도 버전 4부터 도입하였습니다.         
 
 ## CustomTest - 마커 애너테이션
-````
+````java
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface CustomTest {
@@ -20,7 +20,7 @@ public @interface CustomTest {
 이와 같은 애너테이션을 아무 매개변수 없이 단순히 대상에 마킹한다는 뜻에서 "마커 애너테이션"이라고 합니다.     
 
 ### Sample1 - 마커 애너테이션을 사용한 프로그램
-````
+````java
 public class Sample1 {
 
     @CustomTest
@@ -55,7 +55,7 @@ public class Sample1 {
 
 테스트로 원하는 메소드에 잘 적용되었는지 확인합니다.     
 
-````
+````java
 @Test
 @DisplayName("마커 애너테이션을 처리하는 프로그램")
 void test1() {
@@ -93,7 +93,7 @@ void test1() {
 테스트 중에 예외가 발생하면 성공하는 테스트도 만들 필요가 있습니다.   
 이 경우에는 매개변수를 받아서 처리할 수 있습니다.      
 
-````
+````java
 public class Sample2 {
 
     @ExceptionTest1(ArithmeticException.class)
@@ -115,7 +115,7 @@ public class Sample2 {
 
 ### ExceptionTest2 -  매개변수 하나를 받는 애너테이션 타입
 
-````
+````java
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface ExceptionTest1 { 
@@ -125,7 +125,7 @@ public @interface ExceptionTest1 {
 
 ### test2 - 매개변수 하나짜리 애너테이션을 사용한 프로그램
 
-````
+````java
 @Test
 @DisplayName("매개변수 하나짜리 애너테이션을 사용한 프로그램")
 void test2() {

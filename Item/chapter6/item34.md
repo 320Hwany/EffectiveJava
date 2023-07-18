@@ -5,7 +5,7 @@
 자바에서 열거 타입을 지원하기 전에는 다음 코드처럼 정수 상수를 한 묶음 선언해서 사용하곤 했습니다.      
 
 ## 정수 열거 패턴 - 상당히 취약하다
-````
+````java
 public class IntEnumPattern {
 
     public static final int APPLE_FUJI = 0;
@@ -19,7 +19,7 @@ public class IntEnumPattern {
 ````
 
 위 코드의 문제점은 사과를 넣어야 하는데 오렌지 관련 정보를 넣어도 컴파일러가 잡지 못합니다.           
-````
+````java
 int i = (APPLE_FUJI - ORANGE_TEMPLE) / APPLE_PIPPIN;
 ````
 
@@ -31,7 +31,7 @@ int i = (APPLE_FUJI - ORANGE_TEMPLE) / APPLE_PIPPIN;
 열거 타입 상수 각각을 특정 데이터와 연결지으려면 생성자에서 데이터를 인스턴스 필드에    
 저장하면 됩니다.     
 
-````
+````java
 public enum Planet {
 
     MERCURY(3.302e+23, 2.4392e6),
@@ -78,7 +78,7 @@ public enum Planet {
 열거 타입에 apply 라는 추상 메소드를 선언하고 각 상수별 class body,     
 즉 각 상수에서 자신에 맞게 재정의하면 됩니다.      
 
-````
+````java
 public enum Operation {
 
     PLUS("+") {
@@ -118,7 +118,7 @@ public enum Operation {
 
 상수를 받아서 해당 열거 타입 상수로 변환해주는 fromString을 구현할 수 있습니다.      
 
-````
+````java
 public enum Operation {
 
     PLUS("+") {
@@ -167,7 +167,7 @@ public enum Operation {
 switch 문을 사용하기에는 유연성이 떨어집니다.    
 이러한 경우에 대비하여 enum PayType을 정의하여 전략 열거 타입 패턴을 사용할 수 있습니다.     
 
-````
+````java
 public enum PayrollDay {
 
     MONDAY(WEEKDAY),

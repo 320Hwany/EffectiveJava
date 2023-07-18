@@ -9,7 +9,7 @@
 하지만 두 클래스가 관련이 있다고 생각하면 정적 멤버 클래스의 사용을 고려해 볼 수 있습니다.   
 
 ### 두 클래스를 한 파일에 정의 - Bad
-````
+````java
 class Member1 {
     static final String NAME = "member1 이름";
 }
@@ -20,7 +20,7 @@ class Member2 {
 ````
 
 ### 두 클래스를 정적 멤버 클래스로 나눈 방법 - Good
-````
+````java
 public class Member {
 
     public static class Member1 {

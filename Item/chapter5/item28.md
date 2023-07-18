@@ -8,7 +8,7 @@ Sub가 Super의 하위 타입이라면 배열 Sub[]는 배열 Super[]의 하위 
 
 ### 런타임 시에 오류가 발생하는 배열
 
-````
+````java
 @Test
 @DisplayName("배열은 공변이어서 런타임시에 오류가 발생합니다")
 void test1() {
@@ -25,7 +25,7 @@ Object 배열에 String 타입을 넣어도 컴파일 시에는 오류가 발생
 하지만 런타임 시에 ArrayStoreException이 발생합니다.    
 
 ### 컴파일 시에 오류가 발생하는 리스트
-````
+````java
 @Test
 @DisplayName("리스트는 불공변이어서 컴파일시에 오류가 발생합니다")
 void test1() {
@@ -38,7 +38,7 @@ void test1() {
 
 ## 제네릭 배열은 만들지 못한다
 
-````
+````java
 List<String>[] strings = new List<String>[1];
 ````
 

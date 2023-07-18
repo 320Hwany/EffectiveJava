@@ -12,7 +12,7 @@
 
 ## Operation
 
-````
+````java
 public interface Operation {
 
     double apply(double x, double y);
@@ -21,7 +21,7 @@ public interface Operation {
 
 ## BasicOperation
 
-````
+````java
 public enum BasicOperation implements Operation {
 
     PLUS("+") {
@@ -60,7 +60,7 @@ public enum BasicOperation implements Operation {
 
 ## ExtendedOperation
 
-````
+````java
 public enum ExtendedOperation implements Operation {
 
     EXP("^") {
@@ -94,7 +94,7 @@ public enum ExtendedOperation implements Operation {
 
 ## Client
 
-````
+````java
 public class Client {
 
     ...

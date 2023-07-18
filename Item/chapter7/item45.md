@@ -18,7 +18,7 @@
 Anagram은 철자를 구성하는 알파벳이 같고 순서만 다른 단어를 말합니다.   
 맵의 키를 그 단어를 구성하는 철자들을 알파벳 순으로 정렬한 값입니다.     
 
-````
+````java
 public class Anagrams {
 
     public static void main(String[] args) throws IOException {
@@ -53,7 +53,7 @@ public class Anagrams {
 
 위 코드를 스트림을 적절히 활용하면 깔끔하고 명료해집니다.      
 
-````
+````java
 public class AnagramsBetter {
 
     public static void main(String[] args) throws IOException {

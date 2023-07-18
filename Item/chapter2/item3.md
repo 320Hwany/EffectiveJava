@@ -4,7 +4,7 @@
 
 1. public static final 필드 방식
 
-```
+```java
 public class Member1 {
 
     public static final Member1 INSTANCE = new Member1();
@@ -16,7 +16,7 @@ public class Member1 {
 
 2. 정적 팩토리 메소드를 public static 멤버로 제공하는 방식
 
-```
+```java
 public class Member2 {
 
     private static final Member2 INSTANCE = new Member2();
@@ -37,7 +37,7 @@ public class Member2 {
 
 3. 원소가 하나뿐인 열거 타입 방식
 
-```
+```java
 public enum Member3 {
 
     INSTANCE;
@@ -52,7 +52,7 @@ public enum Member3 {
 }
 ```
 
-```
+```java
 public enum Member4 {
 
     INSTANCE;

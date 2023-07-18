@@ -5,7 +5,7 @@
 
 ## StringTest
 
-```
+```java
 public class StringTest {
 
     @Test
@@ -34,7 +34,7 @@ String은 리터럴 방식으로 선언하면 같은 가상 머신 안에서 이
 생성 비용이 아주 비싼 객체가 반복해서 필요하다면 캐싱하여 재사용하는 방법을 생각해볼 수 있습니다.     
 MY_REGEX를 미리 생성해 캐싱해두고 메소드가 호출될 때마다 인스턴스를 재사용하면 됩니다.   
 
-```
+```java
 public class Regex {
 
     private static final Pattern MY_REGEX = Pattern.compile("^(?=.*[a-zA-Z])(?=.*\\d)[a-zA-Z\\d]{4,12}$");
@@ -55,7 +55,7 @@ public class Regex {
 sumBadWay() 방식은 무수히 많은 객체를 생성합니다.   
 박싱된 기본 타입보다는 기본 타입을 사용하고 의도치 않은 오토박싱이 숨어들지 않도록 주의해야 합니다.    
 
-```
+```java
 public class AutoBoxing {
 
     private Long sumLong = 0L;

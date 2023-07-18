@@ -31,7 +31,7 @@ Collection 인터페이스는 Iterable의 하위 타입이고 stream 메소드�
 
 컬렉션을 반환하는 것이 원소의 개수가 부담된다면 전용 컬렉션을 구현하는 방법도 있습니다.    
 
-````
+````java
 public class PowerSet {
 
     public static final <E> Collection<Set<E>> of(Set<E> s) {
