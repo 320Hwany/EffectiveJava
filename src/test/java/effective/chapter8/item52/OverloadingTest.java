@@ -24,7 +24,7 @@ public class OverloadingTest {
 
         Collection<?>[] collections = {sets, bigIntegers, maps.values()};
 
-        // when
+        // expected
         for (Collection<?> c : collections) {
             assertThat(classify(c)).isEqualTo("그 외");
         }
