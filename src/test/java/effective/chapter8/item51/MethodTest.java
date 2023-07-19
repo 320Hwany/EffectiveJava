@@ -10,36 +10,32 @@ import static org.assertj.core.api.Assertions.*;
 public class MethodTest {
 
     @Test
-    @DisplayName("매개변수 목록이 긴 경우")
+    @DisplayName("매개변수 목록이 긴 경우 - 가능하면 줄여야 한다")
     void test1() {
         // given
         CustomList customList =
-                new CustomList(List.of("a", "b", "c", "d", "e", "f", "g", "h", "i", "j"), "e");
+                new CustomList(List.of("a", "b", "c", "d", "e", "f", "g", "h", "i", "j"));
 
         // when
-        int index =
-                customList.findIndex1(List.of("a", "b", "c"), List.of("d", "e", "f"), List.of("g", "h", "i", "j"));
+        int index = customList.findIndexBad(0, 5, "b");
 
         // then
-        assertThat(index).isEqualTo(4);
+        assertThat(index).isEqualTo(1);
     }
 
     @Test
-    @DisplayName("매개변수 목록이 긴 메소드를 2개의 메소드로 쪼갠다")
+    @DisplayName("매개변수 목록이 긴 메소드를 2개의 메소드로 분리했다")
     void test2() {
         // given
         CustomList customList =
-                new CustomList(List.of("a", "b", "c", "d", "e", "f", "g", "h", "i", "j"), "e");
+                new CustomList(List.of("a", "b", "c", "d", "e", "f", "g", "h", "i", "j"));
 
         // when
-        int index1 = customList.findIndex2(0, 2);
-        int index2 = customList.findIndex2(3, 5);
-        int index3 = customList.findIndex2(6, 9);
+        List<String> subList = customList.getSubList(0, 5);
+        int index = customList.findIndexBetter(subList, "b");
 
         // then
-        assertThat(index1).isEqualTo(-1);
-        assertThat(index2).isEqualTo(4);
-        assertThat(index3).isEqualTo(-1);
+        assertThat(index).isEqualTo(1);
     }
 
     @Test

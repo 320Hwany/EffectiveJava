@@ -6,31 +6,25 @@ public class CustomList {
 
     private List<String> strings;
 
-    private String value;
-
-    public CustomList(List<String> strings, String value) {
+    public CustomList(List<String> strings) {
         this.strings = strings;
-        this.value = value;
     }
 
     // 매개변수가 3개인 메소드 - 가능하면 줄이자
-    public int findIndex1(List<String> start, List<String> mid, List<String> end) {
-        if (start.contains(value)) {
-            return strings.indexOf(value);
-        } else if (mid.contains(value)) {
-            return strings.indexOf(value);
-        } else if (end.contains(value)) {
-            return strings.indexOf(value);
-        }
-        return -1;
-    }
-
-    // List가 정의한 subList를 이용해 매개변수를 줄임 - 여러 메소드로 쪼갠 케이스
-    public int findIndex2(int from, int to) {
+    public int findIndexBad(int from, int to, String value) {
         List<String> subList = strings.subList(from, to);
         if (subList.contains(value)) {
             return strings.indexOf(value);
         }
         return -1;
+    }
+
+    // 2개의 메소드로 분리했다
+    public List<String> getSubList(int from, int to) {
+        return strings.subList(from, to);
+    }
+
+    public int findIndexBetter(List<String> subList, String value) {
+        return subList.indexOf(value);
     }
 }
