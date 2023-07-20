@@ -148,4 +148,4 @@ void test3() {
 헷갈릴 만한 매개변수는 형변환하여 정확한 다중정의 메소드가 선택되도록 해야합니다.     
 
 [아이템 52 - 예제 코드](https://github.com/320Hwany/EffectiveJava/tree/main/src/main/java/effective/chapter8/item52)                                                                                      
-[아이템 52 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter8/item52)       
+[아이템 52 - 학습 테스트](https://github.com/320Hwany/EffectiveJava/tree/main/src/test/java/effective/chapter8/item52)        
