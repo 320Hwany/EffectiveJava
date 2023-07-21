@@ -110,4 +110,5 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 [아이템 51](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item51.md)                     
 [아이템 52](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item52.md)                     
 [아이템 53](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item53.md)                             
-[아이템 54](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item54.md)                             
+[아이템 54](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item54.md)                              
+[아이템 55](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item55.md)                                      
