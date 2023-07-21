@@ -111,4 +111,10 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 [아이템 52](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item52.md)                     
 [아이템 53](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item53.md)                             
 [아이템 54](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item54.md)                              
-[아이템 55](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item55.md)                                      
+[아이템 55](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item55.md)                 
+
+## 일반적인 프로그래밍 원칙
+
+이번 챕터에서는 자바 언어의 핵심 요소에 집중해보았습니다.             
+지역변수, 제어구조, 라이브러리, 데이터 타입, 그리고 언어 경계를 넘나드는 기능인 리플렉션과 네이티브 메소드에 대해     
+다루었습니다. 마지막으로는 최적화와 명명 규칙에 대해 알아보겠습니다.           
