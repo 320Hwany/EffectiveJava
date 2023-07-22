@@ -120,3 +120,4 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 다루었습니다. 마지막으로는 최적화와 명명 규칙에 대해 알아보겠습니다.           
 
 [아이템 57](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter9/item57.md)                            
+[아이템 58](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter9/item58.md)                            
