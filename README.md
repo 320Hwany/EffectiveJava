@@ -119,4 +119,4 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 지역변수, 제어구조, 라이브러리, 데이터 타입, 그리고 언어 경계를 넘나드는 기능인 리플렉션과 네이티브 메소드에 대해     
 다루었습니다. 마지막으로는 최적화와 명명 규칙에 대해 알아보겠습니다.           
 
-[아이템 57](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter8/item57.md)                  
+[아이템 57](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter9/item57.md)                            
