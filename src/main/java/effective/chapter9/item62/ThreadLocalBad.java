@@ -3,6 +3,7 @@ package effective.chapter9.item62;
 
 import java.util.Map;
 
+// 잘못된 예 - 문자열을 사용해 권한을 부여하였다
 public class ThreadLocalBad {
 
     private ThreadLocalBad(){
