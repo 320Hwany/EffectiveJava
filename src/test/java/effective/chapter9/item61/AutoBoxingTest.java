@@ -28,7 +28,7 @@ public class AutoBoxingTest {
     @DisplayName("기본 타입과 박싱된 기본 타입을 혼용한 연산에서는 박싱된 기본 타입의 박싱이 자동으로 풀린다")
     void test2() {
         // expected
-        Assertions.assertThatThrownBy(Unboxing::unbelievable)
+        Assertions.assertThatThrownBy(AutoUnboxing::unbelievable)
                 .isInstanceOf(NullPointerException.class);
     }
 }
