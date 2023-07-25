@@ -8,7 +8,8 @@ import static org.assertj.core.api.Assertions.*;
 class StatementTest {
 
     @Test
-    @DisplayName("문자열 연결은 느릴 수 있다 StringBuilder를 사용하면 문자열 연결 성능이 크게 개선됨")
+    @DisplayName("문자열 연결 연산자(+)는 느릴 수 있다 StringBuilder를 사용하면 문자열 연결 성능이 크게 개선됨 " +
+            "자바 버전이 올라가면서 문자열 연결 연산자를 사용해도 최적화를 해주기도 함")
     void test1() {
         // given
         Statement statement = new Statement();
