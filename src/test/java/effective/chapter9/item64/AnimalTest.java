@@ -1,4 +1,4 @@
-package effective.chapter9;
+package effective.chapter9.item64;
 
 import effective.chapter9.item64.Animal;
 import effective.chapter9.item64.Eagle;
