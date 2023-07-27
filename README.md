@@ -130,4 +130,9 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 [아이템 65](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter9/item65.md)                                                   
 [아이템 66](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter9/item66.md)                                                           
 [아이템 67](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter9/item67.md)                                                           
-[아이템 68](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter9/item68.md)                                                           
+[아이템 68](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter9/item68.md)                     
+
+## 예외
+
+예외를 제대로 활용한다면 프로그램의 가독성, 신뢰성, 유지보수성이 높아지지만, 잘못 사용하면 반대의 효과만 나타납니다.    
+이번 챕터에서는 예외를 효과적으로 활용하는 지침에 대해 정리해보았습니다.       
