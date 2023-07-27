@@ -1,5 +1,6 @@
-package effective.chapter10;
+package effective.chapter10.item69;
 
+import effective.chapter10.item69.Mountain;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
