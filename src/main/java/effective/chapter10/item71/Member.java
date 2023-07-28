@@ -14,6 +14,7 @@ public class Member {
         this.lotto = lotto;
     }
 
+    // 검사 예외를 사용
     public void win1() throws Exception {
         if (lotto == true) {
             System.out.println("win");
@@ -22,6 +23,7 @@ public class Member {
         }
     }
 
+    // 비검사 예외를 사용
     public void win2() {
         if (lotto == true) {
             System.out.println("win");
@@ -30,6 +32,7 @@ public class Member {
         }
     }
 
+    // 상태 검사 메소드
     public boolean check() {
         return lotto;
     }
