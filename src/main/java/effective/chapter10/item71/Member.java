@@ -1,5 +1,7 @@
 package effective.chapter10.item71;
 
+import java.io.IOException;
+
 public class Member {
 
     private String name;
@@ -15,11 +17,11 @@ public class Member {
     }
 
     // 검사 예외를 사용
-    public void win1() throws Exception {
+    public void win1() throws IOException {
         if (lotto == true) {
             System.out.println("win");
         } else {
-            throw new Exception();
+            throw new IOException();
         }
     }
 
@@ -28,7 +30,7 @@ public class Member {
         if (lotto == true) {
             System.out.println("win");
         } else {
-            throw new RuntimeException();
+            throw new IllegalStateException();
         }
     }
 

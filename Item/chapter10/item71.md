@@ -26,11 +26,11 @@ public class Member {
     }
 
     // 검사 예외를 사용
-    public void win1() throws Exception {
+    public void win1() throws IOException {
         if (lotto == true) {
             System.out.println("win");
         } else {
-            throw new Exception();
+            throw new IOException();
         }
     }
 
@@ -39,7 +39,7 @@ public class Member {
         if (lotto == true) {
             System.out.println("win");
         } else {
-            throw new RuntimeException();
+            throw new IllegalStateException();
         }
     }
 
@@ -64,7 +64,7 @@ void test1() {
     // when
     try {
         member.win1();
-    } catch (Exception e) {
+    } catch (IOException e) {
         dealWith = true;
     }
 
@@ -90,7 +90,7 @@ void test2() {
         member.win2();
     } else {
         assertThatThrownBy(() -> member.win2())
-                .isInstanceOf(RuntimeException.class);
+                .isInstanceOf(IllegalStateException.class);
     }
 }
 ````
