@@ -145,5 +145,15 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 [아이템 74](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter10/item74.md)                             
 [아이템 75](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter10/item75.md)                              
 [아이템 76](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter10/item76.md)                               
-[아이템 77](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter10/item77.md)                                
+[아이템 77](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter10/item77.md)          
+
+## 동시성
+
+스레드는 여러 활동을 동시에 수행할 수 있게 해줍니다. 하지만 동시성 프로그래밍은 단일 스레드 프로그래밍보다 어렵습니다.    
+잘못될 수 있는 일이 늘어나고 문제를 재현하기도 어려워지기 때문입니다.    
+하지만 동시성 프로그래밍은 자바 플랫폼 자체에 내재되어 있을 뿐 아니라 오늘날 어디서나 쓰이는 멀티코어 프로세서의 힘을   
+제대로 활용하려면 반드시 필요한 기술입니다.    
+이번 챕터에서는 동시성 프로그램을 명확하고 정확하게 만들고 잘 문서화하는 데 도움이 되는 조언들을 정리해보았습니다.     
+
+
 
