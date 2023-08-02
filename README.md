@@ -155,5 +155,6 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 제대로 활용하려면 반드시 필요한 기술입니다.    
 이번 챕터에서는 동시성 프로그램을 명확하고 정확하게 만들고 잘 문서화하는 데 도움이 되는 조언들을 정리해보았습니다.     
 
-[아이템 78](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter11/item78.md)                   
+[아이템 78](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter11/item78.md)                    
+[아이템 79](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter11/item79.md)                           
 
