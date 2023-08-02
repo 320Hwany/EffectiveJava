@@ -1,4 +1,4 @@
-package effective.chapter11;
+package effective.chapter11.chapter78;
 
 import java.util.concurrent.atomic.AtomicLong;
 
