@@ -1,4 +1,4 @@
-package effective.chapter11.chapter78;
+package effective.chapter11.item78;
 
 import java.util.concurrent.TimeUnit;
 

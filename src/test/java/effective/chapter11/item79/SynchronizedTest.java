@@ -1,8 +1,7 @@
-package effective.chapter11;
+package effective.chapter11.item79;
 
-import effective.chapter11.chapter79.ObservableSet;
-import effective.chapter11.chapter79.ObservableSetBetter1;
-import effective.chapter11.chapter79.SetObserver;
+import effective.chapter11.item79.ObservableSet;
+import effective.chapter11.item79.SetObserver;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

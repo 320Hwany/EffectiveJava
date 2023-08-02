@@ -1,4 +1,4 @@
-package effective.chapter11.chapter79;
+package effective.chapter11.item79;
 
 @FunctionalInterface public interface SetObserverBetter1<E> {
 

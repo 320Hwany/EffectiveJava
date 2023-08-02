@@ -1,11 +1,11 @@
-package effective.chapter11.chapter78;
+package effective.chapter11.item78;
 
 import java.util.concurrent.TimeUnit;
 
-// volatile 필드를 사용해 스레드가 정상 종료한다
-public class StopThreadBetter2 {
+// 잘못된 코드 - 이 프로그램은 얼마나 오래 실행될까?
+public class StopThreadBad {
 
-    private static volatile boolean stopRequested;
+    private static boolean stopRequested;
 
     public static void main(String[] args) throws InterruptedException {
         Thread backgroundThread = new Thread(() -> {

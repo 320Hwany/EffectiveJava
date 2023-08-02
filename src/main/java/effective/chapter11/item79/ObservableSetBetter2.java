@@ -1,4 +1,4 @@
-package effective.chapter11.chapter79;
+package effective.chapter11.item79;
 
 import java.util.Collection;
 import java.util.List;
