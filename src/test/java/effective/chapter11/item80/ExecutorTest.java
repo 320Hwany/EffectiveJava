@@ -1,6 +1,5 @@
 package effective.chapter11.item80;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +10,7 @@ import static org.assertj.core.api.Assertions.*;
 public class ExecutorTest {
 
     @Test
-    @DisplayName("실행할 태스크를 넘기며 만약 완료되지 않으면 최대 5초까지 기다립니다")
+    @DisplayName("실행할 태스크를 넘기며 5초를 기다린 후 실행자를 종료합니다")
     void test1() throws InterruptedException {
         // given
         ExecutorService exec = Executors.newSingleThreadExecutor();
@@ -19,8 +18,8 @@ public class ExecutorTest {
 
         // when
         exec.execute(runnable);
-        exec.shutdown();
         exec.awaitTermination(5, TimeUnit.SECONDS);
+        exec.shutdown();
     }
 
     @Test
