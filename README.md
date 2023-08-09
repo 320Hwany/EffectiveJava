@@ -163,3 +163,9 @@ Object를 상속하는 클래스, 즉 모든 클래스는 이 메소드들을 �
 [아이템 83](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter11/item83.md)                                        
 [아이템 84](https://github.com/320Hwany/EffectiveJava/blob/main/Item/chapter11/item84.md)                                           
 
+## 직렬화
+
+객체 직렬화란 자바가 객체를 바이트 스트림으로 인코딩하고(직렬화) 그 바이트 스트림으로부터 다시 객체를 재구성하는(역직렬화)           
+매커니즘입니다. 직렬화된 객체는 다른 VM에 전송하거나 디스크에 저장한 후 나중에 역직렬화할 수 있습니다.    
+이번 챕터에서는 직렬화가 품고 있는 위험과 그 위험을 최소화하는 방법에 대해 정리해보았습니다.        
+
