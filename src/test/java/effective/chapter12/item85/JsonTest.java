@@ -1,7 +1,8 @@
-package effective.chapter11.item85;
+package effective.chapter12.item85;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import effective.chapter12.item85.Member;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

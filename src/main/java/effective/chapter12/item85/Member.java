@@ -1,4 +1,4 @@
-package effective.chapter11.item85;
+package effective.chapter12.item85;
 
 import java.util.Objects;
 
