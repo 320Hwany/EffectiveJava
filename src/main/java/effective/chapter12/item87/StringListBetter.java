@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-import java.util.Random;
 
 // 합리적인 커스텀 직렬화 형태를 갖춘 StringList
 public final class StringListBetter implements Serializable {
