@@ -44,7 +44,7 @@ class PeriodTest {
     }
 
     @Test
-    @DisplayName("접근자 메소드가 내부의 가변 정보를 직접 드러냄 - PeriodGood")
+    @DisplayName("접근자 메소드가 내부의 가변 정보를 직접 드러냄 - Period")
     void test3() {
         // given
         Date start = new Date();
@@ -61,7 +61,7 @@ class PeriodTest {
     }
 
     @Test
-    @DisplayName("접근자 메소드가 내부의 가변 정보를 직접 드러냄 - PeriodGood")
+    @DisplayName("접근자 메소드가 내부의 가변 정보를 직접 드러냄 - Period")
     void test4() {
         // given
         Date start = new Date();
