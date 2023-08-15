@@ -32,4 +32,26 @@ public class Period implements Serializable {
     private Object writeReplace() {
         return new SerializationProxy(this);
     }
+
+    private static class SerializationProxy implements Serializable {
+        private final Date start;
+        private final Date end;
+
+        public SerializationProxy(final Period p) {
+            this.start = p.start();
+            this.end = p.end();
+        }
+
+        private static final long serialVersionUID = 239284274294732L; // 랜덤 값
+
+        // 직렬화 프록시 패턴용 readObject 메소드
+        private void readObject(ObjectInputStream stream) throws InvalidObjectException {
+            throw new InvalidObjectException("프록시가 필요합니다");
+        }
+
+        // Period.SerializationProxy 용 readResolve 메소드
+        private Object readResolve() {
+            return new Period(start, end); // public 생성자를 사용한다
+        }
+    }
 }
